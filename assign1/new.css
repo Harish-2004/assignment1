@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.loginpage {
+    text-align: left;
+    padding: 50px;
+    border: 2px solid #121400;
+    border-radius: 5px;
+  background-color: #a5d6ac;
+    max-width: 400px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+}
+
+button {
+    background-color: #0074d9;
+    margin-bottom: auto;
+
+    color: #fff;
+    border: 200px;
+    padding: 10px 20px;
+    cursor:pointer;
+}
+
+.Signupbtn
+{
+    background-color: #8dd900;
+    margin-bottom: auto;
+
+    color: #fff;
+    border: 300px;
+    padding: 10px 20px;
+    cursor:pointer;
+}
+.buttons-need{
+    text-align: center;
+}
+.logintext{
+    color: #c6c6c6;
+}

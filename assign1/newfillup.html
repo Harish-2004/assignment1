@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Fillup</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fill.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>FORM</h1>
+        <form action="">
+            <div class="form-group">
+                <label for="companyName">NAME OF THE COMPANY</label>
+                <input type="text" class="form-control" id="companyName">
+            </div>
+            <div class="form-group">
+                <label for="rollNo">ROLLNO:</label>
+                <input type="text" class="form-control" id="rollNo">
+            </div>
+            <div class="form-group">
+                <label for="studentName">NAME OF THE STUDENT</label>
+                <input type="text" class="form-control" id="studentName">
+            </div>
+            <div class="form-group">
+                <label for="projectTitle">TITLE OF THE PROJECT</label>
+                <input type="text" class="form-control" id="projectTitle">
+            </div>
+            <div class="form-group">
+                <label for="year">YEAR</label>
+                <select class="form-control" id="year"></select>
+            </div>
+            <div class="form-group">
+                <label for="semester">SEM</label>
+                <input type="text" class="form-control" id="semester">
+            </div>
+            <div class="form-group">
+                <label for="startDate">START DATE:</label>
+                <input type="date" class="form-control" id="startDate">
+            </div>
+            <div class="form-group">
+                <label for="endDate">END DATE:</label>
+                <input type="date" class="form-control" id="endDate">
+            </div>
+            <div class="form-group">
+                <label for="stipend">STIPEND</label>
+                <input type="text" class="form-control" id="stipend">
+            </div>
+            <div class="form-group">
+                <label for="file">Choose a file to upload</label>
+                <input type="file" class="form-control" name="file" id="file">
+            </div>
+            <button type="submit" class="btn btn-primary">SUBMIT</button>
+        </form>
+    </div>
+    <script src="fillscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/* Add a border and some spacing to the col elements */
+/* Change the background color of the body */
+body {
+    background-color: #e7b3a4; /* Replace with your desired color */
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.col {
+    border: 1px solid #ddd; /* Add a border */
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 10px;
+    border-radius: 5px; /* Add some rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Styling for headings and paragraphs within the col elements */
+.col h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.col p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Styling for the 'Apply Now' button */
+.col .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.col .btn:hover {
+    background-color: #0056b3;
+}

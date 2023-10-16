@@ -1,0 +1,27 @@
+.container {
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Vertically center the content */
+}
+
+.imageb {
+    flex: 1; /* Let this div grow to take available space */
+    padding: 20px; /* Add some spacing between the image and details */
+}
+
+.detailsb {
+    flex: 2; /* Let this div grow to take available space */
+    padding: 20px; /* Add some spacing between the image and details */
+}
+img
+{
+    width: 100%;
+    height: auto;
+}
+td{
+    padding: 10px;
+}
+.vertical-line {
+    border-left: 2px solid #000; /* Specify the width, style, and color of the vertical line */
+    height: 500px; /* Set the height of the line as needed */
+    margin: 0 20px; /* Adjust margin for spacing if needed */
+}
